@@ -1,0 +1,16 @@
+{
+  "name": "tabify-",
+  "version": "1.0.0",
+  "description": "Uma extensão de navegador leve ou utilitário para agilizar o gerenciamento de guias, fornecendo recursos como agrupamento de guias, pesquisa e troca rápida.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
