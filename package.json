@@ -4,7 +4,9 @@
   "description": "Uma extensão de navegador leve ou utilitário para agilizar o gerenciamento de guias, fornecendo recursos como agrupamento de guias, pesquisa e troca rápida.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "Unlicense",
@@ -12,5 +14,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
